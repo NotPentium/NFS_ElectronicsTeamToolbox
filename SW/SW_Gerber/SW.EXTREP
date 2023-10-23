@@ -1,0 +1,48 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: SW.GBR   10/23/2023  10:41:37 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                L1-S                                    
+.gbr                L2-GND                                  
+.gbr                L3-S                                    
+.gbr                L4-PRW                                  
+.gbr                L5-GND                                  
+.gbr                L6-S                                    
+.gbr                Bottom Solder                           
+.gbr                Bottom Paste                            
+.gbr                Bottom Overlay                          
+.gbr                Mechanical 1                            
+.gbr                Top Assembly                            
+.gbr                Bottom Assembly                         
+.gbr                Top Courtyard                           
+.gbr                Top Tenting                             
+.gbr                Bottom Tenting                          
+.gbr                Top 3D Body                             
+.gbr                Mechanical 15                           
+.gbr                Top Component Center                    
+.gbr                Bottom Courtyard                        
+.gbr                Bottom 3D Body                          
+.gbr                Bottom Component Center                 
+.gbr                Keep-Out Layer                          
+.gbr                Dielectric 2                            
+.gbr                Dielectric 8                            
+.gbr                Dielectric 1                            
+.gbr                Multi-Layer                             
+.gbr                Dielectric 6                            
+.gbr                Dielectric 3                            
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Drill Drawing                           
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------
