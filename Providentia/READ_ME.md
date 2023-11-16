@@ -28,7 +28,7 @@ NOT DONE YET
 
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
-- **USB:** [Link to Folder](./USB.md)
+- **USB:** [Text](./USB.md)
 
 Feel free to contribute to the library by adding new documents or updating existing ones.
 
