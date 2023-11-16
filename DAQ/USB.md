@@ -12,7 +12,7 @@ The content spans various categories such as research papers, hardware documenta
 ## Published Links and Descriptions
 
 We initiated our research by examining the microcontroller datasheet to determine the type of USB interface it utilizes. 
-For details, refer to [STM32L452RET6P Datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/fc/c2/8d/b7/99/d8/42/9e/DM00340549/files/DM00340549.pdf/jcr:content/translations/en.DM00340549.pdf).
+For details, refer to the [Microcontroller (STM32L452RET6P) Datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/fc/c2/8d/b7/99/d8/42/9e/DM00340549/files/DM00340549.pdf/jcr:content/translations/en.DM00340549.pdf).
 
 Explore the following links for detailed information on the USB component of our DAQ project:
 
