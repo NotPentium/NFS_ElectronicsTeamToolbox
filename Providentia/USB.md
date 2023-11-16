@@ -16,8 +16,8 @@ For details, refer to the [Microcontroller (STM32L452RET6P) Datasheet](https://w
 
 Explore the following links for detailed information on the USB component of our DAQ project:
 
-### 1. [USB Specification](link_to_usb_spec)
-   - The official USB specification document providing in-depth details about the USB protocol standards and specifications.
+### 1. [Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS)
+   - What .
 
 ### 2. [USB Hardware Design Guidelines](link_to_hardware_guidelines)
    - Guidelines and best practices for designing hardware components that adhere to USB standards.
