@@ -23,7 +23,7 @@ Explore the following links for detailed information on the USB component of our
    - What is the LPM on the USB protocol.
 
 ### 3. [USB 2.0 FS (1)](https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf) & [USB 2.0 FS (2)](https://en.wikipedia.org/wiki/USB_communications#:~:text=Electrical%20specification%5Bedit%5D) & [USB 2.0 FS (3)](https://www.youtube.com/watch?v=phkBIjoJKj4&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&t=918s)
-   - Documentation for USB 2.0 FS.
+   - Documentation for the USB 2.0 FS.
 
 ### 4. [USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
    - Documentation about the USB 2.0.
