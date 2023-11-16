@@ -17,20 +17,19 @@ For details, refer to the [Microcontroller (STM32L452RET6P) Datasheet](https://w
 Explore the following links for detailed information on the USB component of our DAQ project:
 
 ### 1. [Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS)
-   - What .
+   - What is a Crystal-less USB.
 
-### 2. [USB Hardware Design Guidelines](link_to_hardware_guidelines)
-   - Guidelines and best practices for designing hardware components that adhere to USB standards.
+### 2. [USB LPM (1)](https://techcommunity.microsoft.com/t5/microsoft-usb-blog/link-power-management-lpm-in-usb-2-0/ba-p/270812) & [USB LPM (2)](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm)
+   - What is the LPM on the USB protocol.
 
-### 3. [USB Software Development Kit (SDK)](link_to_usb_sdk)
-   - SDK documentation for USB software development, including code examples and API references.
+### 3. [USB 2.0 FS (1)](https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf) & [USB 2.0 FS (2)](https://en.wikipedia.org/wiki/USB_communications#:~:text=Electrical%20specification%5Bedit%5D) & [USB 2.0 FS (3)](https://www.youtube.com/watch?v=phkBIjoJKj4&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&t=918s)
+   - Documentation for USB 2.0 FS.
 
-### 4. [USB Forum Thread - Troubleshooting](link_to_usb_forum_troubleshoot)
+### 4. [](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256)
    - Community discussions on common USB issues and troubleshooting tips.
 
 ### 5. [Recent USB Research Paper](link_to_recent_usb_paper)
    - A recent research paper exploring advancements or innovations in USB technology relevant to our project.
-
 
 ## Contact
 
