@@ -28,10 +28,7 @@ NOT DONE YET
 
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
-- **Research Papers:** [Link to Folder](./ResearchPapers/)
-- **Hardware Documentation:** [Link to Folder](./HardwareDocumentation/)
-- **Software Documentation:** [Link to Folder](./SoftwareDocumentation/)
-- **Forums and Discussions:** [Link to Folder](./Forums/)
+- **USB:** [Link to Folder](./USB.md)
 
 Feel free to contribute to the library by adding new documents or updating existing ones.
 
