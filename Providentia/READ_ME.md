@@ -24,8 +24,6 @@ To facilitate data storage, the DAQ board is equipped with a micro SD card reade
 
 ## Library Structure
 
-NOT DONE YET
-
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
 - **USB:** [File](./USB.md)
