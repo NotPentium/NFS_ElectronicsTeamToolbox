@@ -41,7 +41,7 @@ For information on setting up and using the DAQ acquisition board, please refer 
 
 ## Contact
 
-For questions or collaboration opportunities, please reach out to [RobertoERT or NotPentium] at [re.teixeira@campus.fct.unl.pt or pedrinhogameplays@naoseioteumailenaoquisirbuscar.com].
+For questions or collaboration opportunities, please reach out to [RobertoERT or NotPentium] at [re.teixeira@campus.fct.unl.pt or pav.fernandes@campus.fct.unl.pt].
 
 We hope this library proves valuable in understanding the DAQ project!
 
