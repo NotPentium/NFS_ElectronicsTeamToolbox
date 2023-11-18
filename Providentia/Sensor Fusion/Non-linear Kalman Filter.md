@@ -17,7 +17,7 @@ Our goal is to provide transparency and understanding of the work conducted by o
 - [Wikipedia - List of EKV Variations](https://en.wikipedia.org/wiki/Extended_Kalman_filter#Modifications)
 - [Iterative EKF Implementation](https://www.mathworks.com/matlabcentral/fileexchange/42156-object-tracking-with-an-iterative-extended-kalman-filter-iekf)
 - - Upon some research we concluded that the best improvements for the EFK are the Iterated EKF, Unscented KF
-- [Wikipedia: Unscented KF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter)
+- [Wikipedia: Unscented KF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter) -> Theory and Formulas
 - [Overview of KF|EKF|UKF|ParticleF](https://github.com/jameseoconnor/localisation-and-tracking-algorithms) -> !!!
 
 ### 3. "X" Kalman Filter Implementation:
