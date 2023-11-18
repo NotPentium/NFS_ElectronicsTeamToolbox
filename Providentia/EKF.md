@@ -26,6 +26,9 @@ The content spans various categories such as research papers, hardware documenta
 
 - [Overview of KF|EKF|UKF|ParticleF](https://github.com/jameseoconnor/localisation-and-tracking-algorithms) -> !!!
 
+### 2. Extended Kalman Filter Implementation:
+- [Implementation of a EKF on a Robot](https://ieeexplore.ieee.org/document/9039855)
+
 ### EXTRA. Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF:
 - [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> A difficult read
 
