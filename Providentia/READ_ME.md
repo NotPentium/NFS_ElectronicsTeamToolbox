@@ -1,8 +1,8 @@
 # Providentia Library
 
 Welcome to the Providentia (Data Acquisition Board) library! 
-This library serves as a centralized repository for various documents related to our DAQ acquisition board project. 
-The DAQ board is designed to capture data from multiple sensors, process it using a microcontroller, and store the results on a micro SD card.
+This library serves as a centralized repository for various documents related to our DAQ board project. 
+The Providentia is designed to capture data from multiple sensors, process it using a microcontroller, and store the results on a micro SD card.
 
 ## Project Overview
 
