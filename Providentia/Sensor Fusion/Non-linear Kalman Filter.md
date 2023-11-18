@@ -9,16 +9,15 @@ Our goal is to provide transparency and understanding of the work conducted by o
 ## Published Links and Descriptions
 
 ### 1. Extended Kalman Filter Theory: 
-- [Wikipedia](https://en.wikipedia.org/wiki/Extended_Kalman_filter) -> Theory, Advantages/Disadvantages, Formulas, etc.
-- [Mathworks - MATLAB](https://www.mathworks.com/help/driving/ug/extended-kalman-filters.html) -> Small Theory Introduction, Formulas and Implementation on MATLAB.
-- [Mathworks - Simulink](https://www.mathworks.com/help/control/ref/ekf_block.html) -> Implementation on Simulink and Examples: [EKF/UEKF Implementation for Multiple Sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html)
+- [Wikipedia: ](https://en.wikipedia.org/wiki/Extended_Kalman_filter) -> Theory, Advantages/Disadvantages, Formulas, etc.
+- [Mathworks: MATLAB](https://www.mathworks.com/help/driving/ug/extended-kalman-filters.html) -> Small Theory Introduction, Formulas and Implementation on MATLAB.
+- [Mathworks: Simulink](https://www.mathworks.com/help/control/ref/ekf_block.html) -> Implementation on Simulink and Examples: [EKF/UKF Implementation for Multiple Sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html)
 
 ### 2. Extended Kalman Filter Possible Improvements:
 - [Wikipedia - List of EKV Variations](https://en.wikipedia.org/wiki/Extended_Kalman_filter#Modifications)
 - [Iterative EKF Implementation](https://www.mathworks.com/matlabcentral/fileexchange/42156-object-tracking-with-an-iterative-extended-kalman-filter-iekf)
-- - Upon some research we concluded that the best improvements for the EFK are the Iterated EKF, Unscented (E)KF
-- [Wikipedia: Unscented (E)KF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter) -> More Theory.
-
+- - Upon some research we concluded that the best improvements for the EFK are the Iterated EKF, Unscented KF
+- [Wikipedia: Unscented KF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter)
 - [Overview of KF|EKF|UKF|ParticleF](https://github.com/jameseoconnor/localisation-and-tracking-algorithms) -> !!!
 
 ### 3. "X" Kalman Filter Implementation:
