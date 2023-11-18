@@ -6,11 +6,6 @@ Welcome to our Kalman Filter research repository for the Data Acquisition (DAQ) 
 This repository serves as a centralized resource to share and document all links explored during our research phase. 
 Our goal is to provide transparency and understanding of the work conducted by our team.
 
-## Scope
-
-This repository includes links related to the Kalman Filter of the DAQ project. 
-The content spans various categories such as research papers, hardware documentation, software documentation, forums, and discussions.
-
 ## Published Links and Descriptions
 
 ### 1. Extended Kalman Filter Theory: 
@@ -37,7 +32,3 @@ The content spans various categories such as research papers, hardware documenta
 ## Contact
 
 For questions or suggestions, contact [RobertoERT] at [re.teixeira@campus.fct.unl.pt].
-
-We hope you find this repository useful in understanding our progress on the DAQ project!
-
-
