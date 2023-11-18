@@ -14,15 +14,12 @@ The content spans various categories such as research papers, hardware documenta
 ## Published Links and Descriptions
 
 ### 1. Extended Kalman Filter Theory: 
-- [EKF Wikipedia](https://en.wikipedia.org/wiki/Extended_Kalman_filter)
-- [EKF Mathworks](https://www.mathworks.com/help/driving/ug/extended-kalman-filters.html) (also has valuable information for the implementation of this filter on MATLAB.)
-- [EKF Mathworks 2](https://www.mathworks.com/help/control/ref/ekf_block.html) (also has info about implementation on simulink -> [excellent example for an EKF/UEKF for multiple sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html))
+- [EKF Wikipedia](https://en.wikipedia.org/wiki/Extended_Kalman_filter) -> Theory, Advantages/Disadvantages, Formulas, etc.
+- [EKF Mathworks](https://www.mathworks.com/help/driving/ug/extended-kalman-filters.html) -> Small Theory Introduction, Formulas and Implementation on MATLAB.
+- [EKF Mathworks 2](https://www.mathworks.com/help/control/ref/ekf_block.html) -> Implementation on Simulink and Examples:[EKF/UEKF Implementation for Multiple Sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html))
 
-EKF possible improvements:
-https://en.wikipedia.org/wiki/Extended_Kalman_filter#Modifications
-
-### 5. [STM32L452RE Documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32l452re.html#documentation)
-   - All documentation concerning the microcontroller.
+### 2. Extended Kalman Filter Possible Improvements:
+- [List of EKV Variations](https://en.wikipedia.org/wiki/Extended_Kalman_filter#Modifications)
 
 ## Contact
 
