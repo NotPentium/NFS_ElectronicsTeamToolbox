@@ -1,15 +1,12 @@
-## USB Research Repository for the Providentia Project
+## 🚧 In Construction 🚧
 
-Welcome to our USB component research repository for the Data Acquisition (DAQ) project for the NOVA FS team. 
-This repository serves as a centralized resource to share and document all links explored during our research phase. 
+# USB Research Repository for the Providentia Project
+
+Welcome to our USB research repository for the Data Acquisition (DAQ) project for the NOVA FS team. 
+This repository serves as a centralized resource to share and document all relevant links explored during our research phase. 
 Our goal is to provide transparency and understanding of the work conducted by our team.
 
-## Scope
-
-This repository includes links related to the USB component of the DAQ project. 
-The content spans various categories such as research papers, hardware documentation, software documentation, forums, and discussions.
-
-## Published Links and Descriptions
+## Links and Descriptions
 
 We initiated our research by examining the microcontroller datasheet to determine the type of USB interface it utilizes. 
 For details, refer to the [Microcontroller (STM32L452RET6P) Datasheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/fc/c2/8d/b7/99/d8/42/9e/DM00340549/files/DM00340549.pdf/jcr:content/translations/en.DM00340549.pdf).
