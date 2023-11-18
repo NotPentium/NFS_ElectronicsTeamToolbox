@@ -6,7 +6,7 @@ The Providentia is designed to capture data from multiple sensors, process it us
 
 ## Project Overview
 
-Our DAQ acquisition board project encompasses the following key components:
+Our DAQ board project encompasses the following key components:
 
 ### Sensors
 
@@ -27,12 +27,13 @@ To facilitate data storage, the DAQ board is equipped with a micro SD card reade
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
 - **USB:** [File](./USB.md)
+- **EKF:** [File](./EKF.md)
 
 Feel free to contribute to the library by adding new documents or updating existing ones.
 
 ## Getting Started
 
-For information on setting up and using the DAQ acquisition board, please refer to the relevant documentation in the subfolders.
+For information on setting up and using the DAQ board, please refer to the relevant documentation in the subfolders.
 
 ## Contact
 
