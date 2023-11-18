@@ -16,7 +16,6 @@ Explore the following links for detailed information on the USB component of our
 ### 1. Caracteristics of the USB present on our Microcontroller
 - What is a Crystal-less USB:
   - [NXP: Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS)
-
 - What is the LPM on the USB protocol:
   - [Microsoft: USB LPM](https://techcommunity.microsoft.com/t5/microsoft-usb-blog/link-power-management-lpm-in-usb-2-0/ba-p/270812)
   - [Synopsys: USB LPM](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm)
@@ -26,7 +25,6 @@ Explore the following links for detailed information on the USB component of our
   - [STM32: USB 2.0 FS](https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf)
   - [Wikipedia: 2.0 FS](https://en.wikipedia.org/wiki/USB_communications#:~:text=Electrical%20specification%5Bedit%5D)
   - [Youtube (STM): USB 2.0 FS](https://www.youtube.com/watch?v=phkBIjoJKj4&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&t=918s)
-    
 - [USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256) -> Extensive Documentation about the USB 2.0
 
 ### 4. Hub with all Documentation concerning the microcontroller
