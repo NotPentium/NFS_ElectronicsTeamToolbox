@@ -14,9 +14,11 @@ For details, refer to the [Microcontroller (STM32L452RET6P) Datasheet](https://w
 Explore the following links for detailed information on the USB component of our DAQ project:
 
 ### 1. Caracteristics of the USB present on our Microcontroller
-- [NXP: Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS) -> What is a Crystal-less USB.
-- [Microsoft: USB LPM](https://techcommunity.microsoft.com/t5/microsoft-usb-blog/link-power-management-lpm-in-usb-2-0/ba-p/270812) -> What is the LPM on the USB protocol.
-- [Synopsys: USB LPM](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm) -> What is the LPM on the USB protocol.
+- What is a Crystal-less USB.
+  - [NXP: Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS
+- What is the LPM on the USB protocol.
+  - [Microsoft: USB LPM](https://techcommunity.microsoft.com/t5/microsoft-usb-blog/link-power-management-lpm-in-usb-2-0/ba-p/270812)
+  - [Synopsys: USB LPM](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm)
 
 ### 3. Caracteristics of the USB 2.0 Full Speed Protocol
 - Documentation for the USB 2.0 FS specifications:
