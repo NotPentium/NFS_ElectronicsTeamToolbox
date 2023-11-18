@@ -1,4 +1,4 @@
-# USB Component Research Repository for DAQ
+## USB Research Repository for the Providentia Project
 
 Welcome to our USB component research repository for the Data Acquisition (DAQ) project for the NOVA FS team. 
 This repository serves as a centralized resource to share and document all links explored during our research phase. 
