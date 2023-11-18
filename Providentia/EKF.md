@@ -30,9 +30,9 @@ The content spans various categories such as research papers, hardware documenta
 - [EKF on a Robot](https://ieeexplore.ieee.org/document/9039855)
 - [EKF | UKF | ParticleF with Multiple Sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html#d126e61850) -> !!!
 
-### EXTRA. Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF:
-- [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> A difficult read
-- - [Hub with multiple Information about Systems with Sensor Fusion](https://www.mathworks.com/help/driving/tracking-and-sensor-fusion.html) -> Tons of information... possibly not nedeed
+### EXTRA. 
+- [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF (information difficult to interprete)
+- [Hub with multiple Information about Systems with Sensor Fusion](https://www.mathworks.com/help/driving/tracking-and-sensor-fusion.html) -> Tons of information... possibly not nedeed
 
 ## Contact
 
