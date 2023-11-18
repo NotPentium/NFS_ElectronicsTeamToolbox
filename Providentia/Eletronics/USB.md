@@ -15,7 +15,7 @@ Explore the following links for detailed information on the USB component of our
 
 ### 1. Caracteristics of the USB present on our Microcontroller
 - What is a Crystal-less USB.
-  - [NXP: Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS
+  - [NXP: Crystal-less USB](https://www.nxp.com/company/blog/crystal-clear-benefits-of-crystal-less-usb-mcus:BL-CRYSTAL-CLEAR-BENEFITS-USB-MCUS)
 - What is the LPM on the USB protocol.
   - [Microsoft: USB LPM](https://techcommunity.microsoft.com/t5/microsoft-usb-blog/link-power-management-lpm-in-usb-2-0/ba-p/270812)
   - [Synopsys: USB LPM](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm)
