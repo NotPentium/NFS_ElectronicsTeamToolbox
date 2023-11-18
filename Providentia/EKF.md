@@ -20,6 +20,7 @@ The content spans various categories such as research papers, hardware documenta
 
 ### 2. Extended Kalman Filter Possible Improvements:
 - [Wikipedia - List of EKV Variations](https://en.wikipedia.org/wiki/Extended_Kalman_filter#Modifications)
+- [Iterative EKF Implementation](https://www.mathworks.com/matlabcentral/fileexchange/42156-object-tracking-with-an-iterative-extended-kalman-filter-iekf)
 
 ### EXTRA. Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF:
 - [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> A difficult read
