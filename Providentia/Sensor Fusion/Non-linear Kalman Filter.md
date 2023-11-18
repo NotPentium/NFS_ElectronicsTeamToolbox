@@ -23,6 +23,7 @@ Our goal is to provide transparency and understanding of the work conducted by o
 ### 3. "X" Kalman Filter Implementation:
 - [EKF on a Robot](https://ieeexplore.ieee.org/document/9039855)
 - [EKF | UKF | ParticleF with Multiple Sensors](https://www.mathworks.com/help/control/ug/multirate-nonlinear-state-estimation-in-simulink.html#d126e61850) -> !!!
+- [Learn how to implement the UKF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter)
 
 ### EXTRA. 
 - [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF (information difficult to interprete)
