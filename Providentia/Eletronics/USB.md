@@ -19,10 +19,10 @@ Explore the following links for detailed information on the USB component of our
 - [Synopsys: USB LPM](https://www.synopsys.com/dw/dwtb.php?a=usb_lpm) -> What is the LPM on the USB protocol.
 
 ### 3. Caracteristics of the USB 2.0 Full Speed Protocol
-- [STM32: USB 2.0 FS](https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf)
-- [Wikipedia: 2.0 FS](https://en.wikipedia.org/wiki/USB_communications#:~:text=Electrical%20specification%5Bedit%5D)
-- [Youtube (STM): USB 2.0 FS](https://www.youtube.com/watch?v=phkBIjoJKj4&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&t=918s)
 - Documentation for the USB 2.0 FS specifications.
+- - [STM32: USB 2.0 FS](https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf)
+- - [Wikipedia: 2.0 FS](https://en.wikipedia.org/wiki/USB_communications#:~:text=Electrical%20specification%5Bedit%5D)
+- - [Youtube (STM): USB 2.0 FS](https://www.youtube.com/watch?v=phkBIjoJKj4&list=PLnMKNibPkDnFFRBVD206EfnnHhQZI4Hxa&t=918s)
 - [USB 101: An Introduction to Universal Serial Bus 2.0](https://www.infineon.com/dgdl/Infineon-AN57294_USB_101_An_Introduction_to_Universal_Serial_Bus_2.0-ApplicationNotes-v09_00-EN.pdf?fileId=8ac78c8c7cdc391c017d072d8e8e5256) -> Extensive Documentation about the USB 2.0
 
 ### 4. [STM32L452RE Documentation](https://www.st.com/en/microcontrollers-microprocessors/stm32l452re.html#documentation)
