@@ -24,6 +24,8 @@ The content spans various categories such as research papers, hardware documenta
 - Upon some research we concluded that the best improvements for the EFK are the Iterated EKF, Unscented (E)KF,
 - [Wikipedia: Unscented (E)KF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter) -> More Theory.
 
+- [Overview of KF|EKF|UKF|ParticleF](https://github.com/jameseoconnor/localisation-and-tracking-algorithms) -> !!!
+
 ### EXTRA. Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF:
 - [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> A difficult read
 
