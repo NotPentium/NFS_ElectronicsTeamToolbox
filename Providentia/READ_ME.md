@@ -30,8 +30,8 @@ To facilitate data storage, the Providentia board is equipped with a microSD car
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
 - **USB:** [File](./Eletronics/USB.md)
-- **EKF:** [File]('./Sensor Fusion/EKF.md')
-- **Buck Converter:** [File]('./Eletronics/Buck Converter.md')
+- **EKF:** [File](./Sensor Fusion/EKF.md)
+- **Buck Converter:** [File](./Eletronics/Buck Converter.md)
 
 Feel free to contribute to the library by adding new documents or updating existing ones.
 
