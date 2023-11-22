@@ -11,9 +11,10 @@ Our Providentia Project encompasses the following key components:
 
 ### Sensors
 
-- **Accelerometer:** Measures acceleration forces, providing crucial data for motion and orientation analysis.
-- **Gyroscope:** Captures angular velocity, aiding in tracking rotation and orientation changes.
-- **Temperature Sensor:** Monitors the temperature, providing environmental data for analysis.
+- **Wheel Speed:**
+- **Brake Position:**
+- **Throttle Position:**
+- **Accelerometer BOSH**
 
 ### Microcontroller
 
