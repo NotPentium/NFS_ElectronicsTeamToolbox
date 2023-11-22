@@ -1,4 +1,4 @@
-# Valkyrie Library - Part of the "Providentia" Project
+# Valkyrie Library
 
 The Valkyrie board is a meticulously crafted sensor module tailored to capture and analyze the dynamic experiences of our FS car. This versatile board excels in recording data from a variety of sensors, seamlessly transmitting it via CAN communication to the data acquisition board. The Valkyrie diligently captures information from surface-mounted accelerometers, gyroscopes, GPS receivers, and magnetometers.
 
@@ -6,7 +6,7 @@ By harnessing the collective power of these sensors and employing robust sensor 
 
 ## Project Overview
 
-Our DAQ board project encompasses the following key components:
+Our Valkyrie board project encompasses the following key components:
 
 ### Sensors
 
