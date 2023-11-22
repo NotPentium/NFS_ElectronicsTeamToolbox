@@ -15,20 +15,23 @@ Our Providentia Project encompasses the following key components:
 - **Brake Position:**
 - **Throttle Position:**
 - **Accelerometer BOSH**
+- - All sensors have a internal temperature sensor for drift correction.  
 
 ### Microcontroller
 
+The "master" microcontroller receives data from the sensors using ?? communication protocols and from the and communicates with the "slave" microcontroller on the Valkyrie Board using CANbus (to avoid long distances disturbances). The "master" microcontroller then send the data to the microSD reader/writer.
 
 ### Micro SD Card Reader/Writer
 
-To facilitate data storage, the DAQ board is equipped with a micro SD card reader/writer. This component allows for efficient and convenient storage of acquired data.
+To facilitate data storage, the Providentia board is equipped with a microSD card reader/writer. This component allows for efficient and convenient storage of acquired data.
 
 ## Library Structure
 
 Explore the subfolders to access relevant documentation for different aspects of the DAQ project:
 
-- **USB:** [File](./USB.md)
-- **EKF:** [File](./EKF.md)
+- **USB:** [File](./Eletronics/USB.md)
+- **EKF:** [File]('./Sensor Fusion/EKF.md')
+- **Buck Converter:** [File]('./Eletronics/Buck Converter.md')
 
 Feel free to contribute to the library by adding new documents or updating existing ones.
 
