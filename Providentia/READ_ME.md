@@ -1,9 +1,9 @@
 # Providentia Library
 
-Welcome to the Providentia Project library! 
-This library serves as a centralized repository for various documents related to our project. 
+Welcome to the Providentia library! 
+This library serves as a centralized repository for various documents related to this project. 
 
-The Providentia Project is designed to capture data from multiple sensors, process it using a microcontroller, and store the results on a micro SD card. To achieve this we created two different boards: a main board, named Providentia, where the data from the sensors is received, "processed" and stored in a microSD, a data aquisition board (DAQ), named Valkyrie, incorporating almost all the sensors.
+The Providentia Project is designed to receive data from multiple sensors and from a DAQ board (Valkyrie), process it using a microcontroller, and store the results on a micro SD card. 
 
 ## Project Overview
 
@@ -18,7 +18,6 @@ Our Providentia Project encompasses the following key components:
 
 ### Microcontroller
 
-The microcontroller processes data from the sensors, enabling real-time analysis and decision-making. It plays a central role in the functionality of the DAQ board.
 
 ### Micro SD Card Reader/Writer
 
