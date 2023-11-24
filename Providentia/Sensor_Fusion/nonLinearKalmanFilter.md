@@ -6,6 +6,14 @@ Welcome to our Non-linear Kalman Filter research repository for the Data Acquisi
 This repository serves as a centralized resource to share and document all links explored during our research phase. 
 Our goal is to provide transparency and understanding of the work conducted by our team.
 
+## Report
+
+I will start this report with an introduction to the concept of the Kalman filter, which I will later expand to the concept of nonlinear Kalman filters (EKF), possible upgrades to the EKF and, finally, the implementation of this technique for the application in question.
+
+At its core, a Kalman Filter is an algorithm used for the estimation and prediction of systems in the presence of uncertainties, noise, and inaccuracies. Kalman filters, for their prediction/estimation, rely on a series of measurements that result in an estimate with a more accurate value than if only a single measurement were used. This mechanism allows for the creation of an output that is closer to the real value and, at the same time, more robust to errors caused by uncertainties in the system at hand.
+
+Delving more deeply into the Kalman Filters (KF), these filters consist of two phases: one for prediction and the other for updating. During the prediction phase, the joint estimates of the system's state variables and their uncertainties are generated. In the subsequent measurement, these values are updated using a weighted average, where greater weight is assigned to estimates with higher certainty. In terms of KF implementation, they operate recursively, facilitating real-time functionality. This is achieved by utilizing sensor output values (state variables), the state calculated in the previous iteration, and its corresponding uncertainty matrix to compute new system estimates.
+
 ## Published Links and Descriptions
 
 ### 1. Extended Kalman Filter Theory: 
