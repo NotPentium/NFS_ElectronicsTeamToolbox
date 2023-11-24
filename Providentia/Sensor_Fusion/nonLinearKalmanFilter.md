@@ -17,9 +17,8 @@ Delving more deeply into the Kalman Filters (KF), these filters consist of two p
 Kalman Filters assume that the error follows a Gaussian Distribution, meaning that the error is constituted by independent random variables with zero mean and covariance. This type of error is characteristic of linear dynamic systems, which, unfortunately, is not our case. Therefore, applying a standard Kalman Filter is not feasible for our nonlinear system. Consequently, Kalman Filters have been extended to be applicable to dynamic systems with nonlinear behavior. Examples of these extensions include the Extended Kalman Filter or its improvements such as the Unscented Kalman Filter. In the rest of the report, our focus will be on these two types of Kalman filters.
 
 Starting with the mathematics behind the Extended Kalman Filter, it utilizes the multivariable Taylor series expansion to linearize the operating point of the system. These functions are not linear but differentiable, as demonstrated below:
-$x_k = f(x_{k-1}, u_{k-1}) + w_{k-1}$
-
-$z_k = h(x_k) + v_k$
+-> $x_k = f(x_{k-1}, u_{k-1}) + w_{k-1}$
+-> $z_k = h(x_k) + v_k$
 
 
 ## Published Links and Descriptions
