@@ -1,43 +1,45 @@
+# Negative-Resistance Oscillator Principles
 
+An oscillation loop consists of two branches:
+
+- The active branch, composed of the oscillator, initiates and builds up the oscillation until it reaches a stable phase. It compensates for losses in the passive branch.
+- The passive branch is mainly composed of the resonator, two load capacitors, and parasitic capacitances.
+
+When the oscillator part is correctly biased, maintaining a stable oscillation requires its transconductance to equal the passive branch conductance.
+
+During startup, the oscillator transconductance must be higher than a multiple of the conductance of the passive part to maximize the possibility of building up oscillation. Excessive oscillator transconductance can saturate the loop, causing startup failure.
+
+To ensure successful startup:
+- The ratio between negative resistance and the crystal maximal equivalent series resistance must be > 5 for HSE oscillators and > 3 for LSE oscillators.
 
 # Introduction to Pierce Oscillators
 
->Load Capacitance
-The load capacitance is the terminal capacitance of the circuit connected to the crystal oscillator. This value is determined by the external capacitors CL1 and CL2, and the stray capacitance of the printed circuit board and connections (Cs). For the frequency to be accurate, the oscillator circuit must show the same load capacitance to the crystal as the one the crystal was adjusted for. Frequency stability requires that the load capacitance be constant. The external capacitors CL1 and CL2 are used to tune the desired value of CL. The following equation give the expression of CL [insert equation here].
+A Pierce oscillator is an electronic circuit used for generating stable and accurate sinusoidal signals, commonly in crystal oscillator applications. Named after physicist George W. Pierce, it relies on a crystal resonator and a feedback network with load capacitance to achieve precise frequency generation. 
+## Load Capacitance
 
->Oscillator Transconductance
+Load capacitance (C_L) is the terminal capacitance of the crystal oscillator circuit, determined by external capacitors CL1 and CL2 and stray capacitance (Cs). Frequency accuracy requires the oscillator circuit to exhibit the same load capacitance as adjusted for the crystal. Frequency stability mandates constant load capacitance. External capacitors CL1 and CL2 tune the desired value of C_L.
 
-To make the oscillation start and reach a stable phase, the oscillator must 
-provide sufficient gain to compensate for the loop losses and to provide the energy for the oscillation buildup. When the oscillation becomes stable, the power provided to the oscillator and the one it dissipates in the loop are equal. Due to the tolerances on passive components, the ratio between oscillator gain and oscillation loop critical gain cannot just exceed 1. This would induce a too long oscillator startup time, and even prevent the oscillator from starting up.
+## Oscillator Transconductance
 
-	>If the oscillation loop maximal critical crystal transconductance parameter (Gm_crit_max) is specified, ensure that it is greater than the oscillation loop critical gain (gmcrit).
-	>If the oscillator transconductance parameter (gm) is specified, make sure that the gain margin ratio (gainmargin) is bigger than 5.
+For oscillation to start and reach a stable phase, the oscillator must provide sufficient gain to compensate for loop losses and support oscillation buildup. The ratio between oscillator gain and oscillation loop critical gain must not exceed 1 due to passive component tolerances, as it would result in a prolonged startup time or prevent startup.
 
-The gain margin ratio is determined by the formula gainmargin = gm / gmcrit, where :
-	>gm is the oscillator transconductance specified in the STM32 datasheet.
-	>gmcrit is defined as the minimal transconductance required to maintain a stable oscillation.gmcrit is computed from oscillation loop passive components parameters. 
-Assuming CL1=CL2, [insert equation].
+- If the oscillation loop maximal critical crystal transconductance parameter (Gm_crit_max) is specified, ensure it is greater than the oscillation loop critical gain (gmcrit).
+- If the oscillator transconductance parameter (gm) is specified, ensure the gain margin ratio (gainmargin) is > 5.
 
-#Drive Level
+The gain margin ratio is determined by the formula: gainmargin = gm / gmcrit, where gm is the oscillator transconductance specified in the STM32 datasheet, and gmcrit is the minimal transconductance required for stable oscillation, computed from oscillation loop passive components parameters, assuming CL1=CL2.
 
-The drive level is the power dissipated in the crystal. It must be limited, otherwise the quartz crystal can fail, because of excessive mechanical vibrations. The maximum drive level is specified by the crystal manufacturer. The drive level is given by [ins EQ] , IQ is the current flowing through the crystal in RMS
+# Drive Level
 
-#External Resistor
+The drive level is the power dissipated in the crystal, and it must be limited to prevent quartz crystal failure due to excessive mechanical vibrations. The maximum drive level is specified by the crystal manufacturer and is given by [insert equation], with IQ being the current flowing through the crystal in RMS.
 
-The role of this resistor is to limit the drive level of the crystal. With CL2, it forms a low-pass filter that forces the oscillator to start at the fundamental frequency and not at overtones. If the power dissipated in the crystal is higher than the value specified by the crystal manufacturer, the external resistor RExt becomes mandatory. If the power dissipated in the selected quartz is lower than the drive level specified by the crystal manufacturer, the insertion of RExt is not recommended. 
+# External Resistor
 
-An initial estimation of RExt is obtained by considering the voltage divider formed by RExt and CL2. Thus, the value of RExt is equal to the reactance of CL2, [ins EQ].
+The external resistor (RExt) limits the crystal's drive level, forming a low-pass filter with CL2 to start the oscillator at the fundamental frequency. RExt becomes mandatory if the power dissipated in the crystal exceeds the specified value by the crystal manufacturer. If the power dissipated in the selected quartz is lower than the specified drive level, the insertion of RExt is not recommended.
 
-After calculating RExt, it is recommended to recalculate the gain margin, [ins EQ].
+An initial estimation of RExt is obtained by considering the voltage divider formed by RExt and CL2, equal to the reactance of CL2 [insert equation]. After calculating RExt, it is recommended to recalculate the gain margin [insert equation].
 
+# Startup Time
 
-#Startup Time
+The startup time is the duration required for the oscillation to start and build up until reaching a stable phase. If the oscillator is paired with a quartz-crystal resonator characterized by a high Q-factor, startup time is higher when ceramic resonators are used. The crystal's nominal frequency inversely affects startup time.
 
-This is the time required by the oscillation to start and then build up, until it reaches a stable oscillation phase. If the oscillator is paired with a quartz-crystal resonator characterized by its high Q-factor, the startup time is higher when ceramic resonators are used. The higher the crystal nominal frequency, the lower the startup time. 
-
-Startup problems usually arise because the gain margin is not properly dimensioned, either by CL1 and CL2 being too small or too large, or by the ESR being too high.
-
-
-
-
-
+Startup problems usually arise due to improperly dimensioned
