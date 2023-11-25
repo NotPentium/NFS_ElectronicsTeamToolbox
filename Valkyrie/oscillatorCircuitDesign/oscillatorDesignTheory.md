@@ -17,7 +17,7 @@ To ensure successful startup:
 A Pierce oscillator is an electronic circuit used for generating stable and accurate sinusoidal signals, commonly in crystal oscillator applications. Named after physicist George W. Pierce, it relies on a crystal resonator and a feedback network with load capacitance to achieve precise frequency generation. 
 ## Load Capacitance
 
-Load capacitance (C_L) is the terminal capacitance of the crystal oscillator circuit, determined by external capacitors CL1 and CL2 and stray capacitance (Cs). Frequency accuracy requires the oscillator circuit to exhibit the same load capacitance as adjusted for the crystal. Frequency stability mandates constant load capacitance. External capacitors CL1 and CL2 tune the desired value of C_L.
+Load capacitance (CL) is the terminal capacitance of the crystal oscillator circuit, determined by external capacitors CL1 and CL2 and stray capacitance (CS). Frequency accuracy requires the oscillator circuit to exhibit the same load capacitance as adjusted for the crystal. Frequency stability mandates constant load capacitance. External capacitors CL1 and CL2 tune the desired value of CL.
 
 ## Oscillator Transconductance
 
@@ -26,7 +26,7 @@ For oscillation to start and reach a stable phase, the oscillator must provide s
 - If the oscillation loop maximal critical crystal transconductance parameter (Gm_crit_max) is specified, ensure it is greater than the oscillation loop critical gain (gmcrit).
 - If the oscillator transconductance parameter (gm) is specified, ensure the gain margin ratio (gainmargin) is > 5.
 
-The gain margin ratio is determined by the formula: gainmargin = gm / gmcrit, where gm is the oscillator transconductance specified in the STM32 datasheet, and gmcrit is the minimal transconductance required for stable oscillation, computed from oscillation loop passive components parameters, assuming CL1=CL2.
+The gain margin ratio is determined by the formula: [ins EQ], where gm is the oscillator transconductance specified in the STM32 datasheet, and gmcrit is the minimal transconductance required for stable oscillation, computed from oscillation loop passive components parameters, assuming CL1=CL2.
 
 # Drive Level
 
@@ -42,4 +42,4 @@ An initial estimation of RExt is obtained by considering the voltage divider for
 
 The startup time is the duration required for the oscillation to start and build up until reaching a stable phase. If the oscillator is paired with a quartz-crystal resonator characterized by a high Q-factor, startup time is higher when ceramic resonators are used. The crystal's nominal frequency inversely affects startup time.
 
-Startup problems usually arise due to improperly dimensioned
+Startup problems usually arise due to improperly dimensioned.
