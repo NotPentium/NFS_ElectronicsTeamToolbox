@@ -26,7 +26,7 @@ As for the second equation, $z_k$ represents the measurement prediction, and the
 
 Both functions $f$ and $h$ cannot be directly inserted into their respective covariance matrices, being necessary the use a Jacobian, which is basically a matrix of partial derivatives. Jacobians are employed in the formulas of the Extended Kalman Filter (EKF) and essentially facilitate the linearization of the nonlinear function around the current estimate of the measurement.
 
-## Published Links and Descriptions
+## References
 
 ### 1. Extended Kalman Filter Theory: 
 - [Wikipedia: ](https://en.wikipedia.org/wiki/Extended_Kalman_filter) -> Theory, Advantages/Disadvantages, Formulas, etc.
