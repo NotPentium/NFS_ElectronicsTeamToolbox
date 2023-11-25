@@ -1,6 +1,6 @@
-# Negative Resistance Oscillator
+# Negative Resistance Oscillator 
 
-[Description of NROscilator]
+A Negative Resistance Oscillator is an electronic circuit that generates oscillations using a component with negative resistance. This negative resistance compensates for circuit losses, allowing sustained oscillations. 
 
 ## Negative-resistance oscillator principles
 
@@ -13,13 +13,16 @@ When the active branch (oscillator part) is correctly biased, maintaining a stab
 
 To ensure a successful oscillator start, the ratio between the negative resistance of the loop and the crystal maximal equivalent series resistance must be greater than 5 for the HSE oscillators and greater than 3 for the LSE oscillators.
 
+## Pierce Oscillator Circuit Design 
+A Pierce oscillator is an electronic circuit used for generating stable and accurate sinusoidal signals, commonly in crystal oscillator applications. It relies on a crystal resonator and a feedback network with load capacitance to achieve precise frequency generation. 
+
 ## Load Capacitor
 
-The load capacitance (CL) is the terminal capacitance of the circuit connected to the crystal oscillator. It is determined by the external capacitors CL1 and CL2, and the stray capacitance of the printed circuit board and connections (CS). 
+The load capacitance ($CL$) is the terminal capacitance of the circuit connected to the crystal oscillator. It is determined by the external capacitors $C_{L1}$ and $C_{L2}$, and the stray capacitance of the printed circuit board and connections ($C_S$). 
 
-The CL value is specified by the crystal manufacturer. For accurate frequency, the oscillator circuit must exhibit the same load capacitance as adjusted for the crystal. The external capacitors CL1 and CL2 are used to tune the desired value of CL, and the following equation gives the expression of CL:
+The $C_L$ value is specified by the crystal manufacturer. For accurate frequency, the oscillator circuit must exhibit the same load capacitance as adjusted for the crystal. The external capacitors $C_{L1}$ and $C_{L2}$ are used to tune the desired value of $C_L$, and the following equation gives the expression of $C_L$:
 
-\$  C_L = \frac{CL1 + CL2}{CL1 + CL2} + C_S \$
+  $$C_L = \frac{C_{L1} + C_{L2}}{C_{L1} + C_{L2}} + C_S$$
 
 ## Oscillator Transconductance
 
@@ -27,27 +30,30 @@ To initiate and stabilize the oscillation, the oscillator must provide sufficien
 
 Due to tolerances on passive component values and their dependency upon environmental parameters, the ratio between oscillator gain and oscillation loop critical gain cannot exceed 1. This would induce a too long oscillator startup time and even prevent the oscillator from starting up.
 
-- If the oscillation loop maximal critical crystal transconductance parameter (Gm_crit_max) is specified, ensure that it is greater than the oscillation loop critical gain (gmcrit).
-- If the oscillator transconductance parameter (gm) is specified, make sure that the gain margin ratio (gainmargin) is greater than 5.
+- If the oscillation loop maximal critical crystal transconductance parameter ($Gm_{crit_{MAX}}$) is specified, ensure that it is greater than the oscillation loop critical gain ($gm_{crit}$).
+- If the oscillator transconductance parameter ($gm$) is specified, make sure that the gain margin ratio ($gain_{margin}$) is greater than 5.
 
-The gain margin ratio is determined by the formula: gainmargin = gm / gmcrit, where gm is the oscillator transconductance specified in the microcontroller datasheet. gmcrit is defined as the minimal transconductance required to maintain a stable oscillation, computed from oscillation loop passive components parameters, assuming CL1=CL2.
+The gain margin ratio is determined by the formula: $gain_{margin} = \frac{gm}{gm_{crit}}$, where gm is the oscillator transconductance specified in the microcontroller datasheet. gmcrit is defined as the minimal transconductance required to maintain a stable oscillation, computed from oscillation loop passive components parameters, assuming $C_{L1}=C_{L2}$.
 
-\[ g_{mcrit} = 4 \cdot ESR \cdot (2 \pi F)^2 \cdot (C_0 + C_L)^2 \]
+$$g_{mcrit} = 4 \cdot ESR \cdot (2 \pi f_{osc})^2 \cdot (C_0 + C_L)^2$$
 
 ## Drive Level
 
-The drive level is the power dissipated in the crystal and must be limited to prevent quartz crystal failure due to excessive mechanical vibrations. The maximum drive level is specified by the crystal manufacturer, and the drive level is given by \( DL = ESR \cdot I_Q^2 \), where IQ is the current flowing through the crystal in RMS.
+The drive level is the power dissipated in the crystal and must be limited to prevent quartz crystal failure due to excessive mechanical vibrations. The maximum drive level is specified by the crystal manufacturer, and the drive level is given by $DL = ESR \cdot I_Q^2$, where $I_Q$ is the current flowing through the crystal in RMS.
 
 ## External Resistor
 
-The role of the external resistor (RExt) is to limit the drive level of the crystal. With CL2, it forms a low-pass filter that forces the oscillator to start at the fundamental frequency and not at overtones. If the power dissipated in the crystal is higher than the value specified by the crystal manufacturer, the external resistor RExt becomes mandatory. If the power dissipated in the selected quartz is lower than the drive level specified by the crystal manufacturer, the insertion of RExt is not recommended. 
+The role of the external resistor ($R_{Ext}$) is to limit the drive level of the crystal. With $C_{L2}$, it forms a low-pass filter that forces the oscillator to start at the fundamental frequency and not at overtones. If the power dissipated in the crystal is higher than the value specified by the crystal manufacturer, the external resistor RExt becomes mandatory. If the power dissipated in the selected quartz is lower than the drive level specified by the crystal manufacturer, the insertion of RExt is not recommended. 
 
-An initial estimation of RExt is obtained by considering the voltage divider formed by RExt and CL2. Thus, the value of RExt is equal to the reactance of CL2, \( R_{ext} = \frac{1}{2 \pi F CL_2} \).
+An initial estimation of $R_{Ext}$ is obtained by considering the voltage divider formed by $R_{Ext}$ and $C_{L2}$. Thus, the value of $R_{Ext}$ is equal to the reactance of $C_{L2}$, $$R_{ext} = \frac{1}{2 \pi F CL_2}$$ 
 
-After calculating RExt, it is recommended to recalculate the gain margin, \( g_{mcrit} = 4 \cdot (ESR + R_{ext}) \cdot (2 \pi F)^2 \cdot (C_0 + C_L)^2 \).
+After calculating $R_{Ext}$, it is recommended to recalculate the gain margin, $$g_{mcrit} = 4 \cdot (ESR + R_{ext}) \cdot (2 \pi F)^2 \cdot (C_0 + C_L)^2$$
 
 ## Startup Time
 
 The startup time is the duration required for the oscillation to start and build up until it reaches a stable oscillation phase. If the oscillator is paired with a quartz-crystal resonator characterized by a high Q-factor, the startup time is higher when ceramic resonators are used. The higher the crystal nominal frequency, the lower the startup time.
 
-Startup problems usually arise because the gain margin is not properly dimensioned, either by CL1 and CL2 being too small or too large, or by the ESR being too high.
+Startup problems usually arise because the gain margin is not properly dimensioned, either by CL1 and CL2 being too small or too large, or by the $ESR$ being too high.
+
+
+
