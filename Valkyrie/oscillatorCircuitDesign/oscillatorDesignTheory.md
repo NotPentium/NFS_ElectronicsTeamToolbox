@@ -1,5 +1,5 @@
 # Negative-Resistance Oscillator Principles
-
+g_{mcrit}=4\cdotESR\cdot(2\piF)^2\cdot(C_0+C_L)^2
 An oscillation loop consists of two branches:
 
 - The active branch, composed of the oscillator, initiates and builds up the oscillation until it reaches a stable phase. It compensates for losses in the passive branch.
