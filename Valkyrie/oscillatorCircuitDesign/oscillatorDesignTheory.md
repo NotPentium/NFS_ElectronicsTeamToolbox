@@ -1,5 +1,5 @@
 # Negative-Resistance Oscillator Principles
-C_L = \frac{CL1 + CL2}{CL1 + CL2} + C_S
+$C_L = \frac{CL1 + CL2}{CL1 + CL2} + C_S$
 
 An oscillation loop consists of two branches:
 
