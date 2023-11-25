@@ -18,7 +18,7 @@ Kalman Filters assume that the error follows a Gaussian Distribution, meaning th
 
 Starting with the mathematics behind the Extended Kalman Filter, it utilizes the multivariable Taylor series expansion to linearize the operating point of the system. These functions are not linear but differentiable, as demonstrated below:\
     $x_k = f(x_{k-1}, u_{k-1}) + w_{k-1}$\
-    $z_k = h(x_k) + v_k$\
+    $z_k = h(x_k) + v_k$
     
 In these equations, $w_k$ and $v_k$ represent the process and observation noise, where both are assumed to be multivariate Gaussian noise with zero mean and covariance $Q_k$ and $R_k$, respectively.
 Regarding the first equation, $x_k$ represents the system predictions, and $u_k$ represents the control vector. In this equation, the function $f$ is used to calculate the actual predicted state based on the previous state estimate.
