@@ -19,7 +19,7 @@ The load capacitance (CL) is the terminal capacitance of the circuit connected t
 
 The CL value is specified by the crystal manufacturer. For accurate frequency, the oscillator circuit must exhibit the same load capacitance as adjusted for the crystal. The external capacitors CL1 and CL2 are used to tune the desired value of CL, and the following equation gives the expression of CL:
 
-\[ C_L = \frac{CL1 + CL2}{CL1 + CL2} + C_S \]
+\$[ C_L = \frac{CL1 + CL2}{CL1 + CL2} + C_S \]$
 
 ## Oscillator Transconductance
 
