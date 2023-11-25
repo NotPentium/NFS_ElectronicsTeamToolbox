@@ -24,7 +24,7 @@ In these equations, $w_k$ and $v_k$ represent the process and observation noise,
 Regarding the first equation, $x_k$ represents the system predictions, and $u_k$ represents the control vector. In this equation, the function $f$ is used to calculate the actual predicted state based on the previous state estimate.
 As for the second equation, $z_k$ represents the measurement prediction, and the function $h$ is used to obtain the system measurement prediction based on the current state predicted in the first equation.
 
-Both functions $f$ and $h$ cannot be directly inserted into their respective covariance matrices. It is necessary to use a Jacobian, which is basically a matrix of partial derivatives. Jacobians are employed in the formulas of the Extended Kalman Filter (EKF) and essentially facilitate the linearization of the nonlinear function around the current estimate of the measurement.
+Both functions $f$ and $h$ cannot be directly inserted into their respective covariance matrices, being necessary the use a Jacobian, which is basically a matrix of partial derivatives. Jacobians are employed in the formulas of the Extended Kalman Filter (EKF) and essentially facilitate the linearization of the nonlinear function around the current estimate of the measurement.
 
 ## Published Links and Descriptions
 
