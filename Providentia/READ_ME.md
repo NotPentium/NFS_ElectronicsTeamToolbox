@@ -12,9 +12,10 @@ Our Providentia Project encompasses the following key components:
 ### Sensors
 
 - **Wheel Speed:**
-- **Brake Position:**
+- **Brake Pressure:**
 - **Throttle Position:**
-- **Accelerometer BOSH**
+- **Accelerometer BOSCH**
+- **Steering Wheel Sensor**
 - - All sensors have a internal temperature sensor for drift correction.  
 
 ### Microcontroller
