@@ -45,7 +45,7 @@ The drive level is the power dissipated in the crystal and must be limited to pr
 
 The role of the external resistor ($R_{Ext}$) is to limit the drive level of the crystal. With $C_{L2}$, it forms a low-pass filter that forces the oscillator to start at the fundamental frequency and not at overtones. If the power dissipated in the crystal is higher than the value specified by the crystal manufacturer, the external resistor RExt becomes mandatory. If the power dissipated in the selected quartz is lower than the drive level specified by the crystal manufacturer, the insertion of RExt is not recommended. 
 
-An initial estimation of $R_{Ext}$ is obtained by considering the voltage divider formed by $R_{Ext}$ and $C_{L2}$. Thus, the value of $R_{Ext}$ is equal to the reactance of $C_{L2}$, $$R_{ext} = \frac{1}{2 \pi F CL_2}$$ 
+An initial estimation of $R_{Ext}$ is obtained by considering the voltage divider formed by $R_{Ext}$ and $C_{L2}$. Thus, the value of $R_{Ext}$ is equal to the reactance of $C_{L2}$, $$R_{ext} = \frac{1}{2 \pi F C_{L2}}$$ 
 
 After calculating $R_{Ext}$, it is recommended to recalculate the gain margin, $$g_{mcrit} = 4 \cdot (ESR + R_{ext}) \cdot (2 \pi F)^2 \cdot (C_0 + C_L)^2$$
 
