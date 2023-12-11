@@ -49,7 +49,3 @@ Both functions $f$ and $h$ cannot be directly inserted into their respective cov
 - [MSc Thesis Project - Systems and Control](https://github.com/DaandeKanter/IEKF-OS_Algorithm/tree/main) -> Example of a system with Raw 3D gyroscope and accelerometer measurements using Iterated EKF (information difficult to interprete)
 - [Hub with multiple Information about Systems with Sensor Fusion](https://www.mathworks.com/help/driving/tracking-and-sensor-fusion.html) -> Tons of information... possibly not nedeed
 
-## Contact
-
-For questions or suggestions, contact [RobertoERT] at [re.teixeira@campus.fct.unl.pt].
-
