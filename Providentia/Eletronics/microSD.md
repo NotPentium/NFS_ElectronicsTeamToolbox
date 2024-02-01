@@ -10,9 +10,3 @@ Our goal is to provide transparency and understanding of the work conducted by o
 
 Explore the following links for detailed information on the SD component of our DAQ project:
 
-
-
-## Contact
-
-For questions or suggestions, contact [RobertoERT] at [re.teixeira@campus.fct.unl.pt].
-
